@@ -1,0 +1,1 @@
+/*	Class to hold some constants*/public class MaxConstants{    static final byte A_NOTHING = 0;    static final byte A_LONG = 1;    static final byte A_FLOAT = 2;    static final byte A_SYM = 3;    static final byte A_GIMME = 8;}

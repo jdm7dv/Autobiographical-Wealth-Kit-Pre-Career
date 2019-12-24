@@ -1,0 +1,1 @@
+All files containing  binaural filters, transaural to binaural conversion filters, binaural to transaural conversion filters, interaural cross correlation (iacc) filters, are locked in order to prevent any unwanted file removal.

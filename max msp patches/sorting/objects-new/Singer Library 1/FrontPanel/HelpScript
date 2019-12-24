@@ -1,0 +1,1 @@
+0, aConstant ‘A constant’ const ‘This is a constant’;1, aInt ‘An int’ intBox 1 16 3;2, aFloat ‘A float’ floatBox -10 10 1.2345;3, aText ‘Some text’ textBox ‘This is some text’;4, aMenuNum ‘A menu (item number output)’ menuNum HelpMenu 1;5, aMenuText ‘A menu (text output)’ menuText HelpMenu Two;

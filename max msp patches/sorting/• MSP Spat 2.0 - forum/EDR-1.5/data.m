@@ -1,0 +1,1 @@
+%fichier de configuration pour EDR analysisA_sigName = '../at0f0a3o.inf';A_nameout = 'ejm.aif';A_winname = 'harris';A_nfft = 512;A_overlap = 0.75;A_Trev = 200;A_Nrepeat = 20;keepfilter = 'Tr P0 STFTfreq';

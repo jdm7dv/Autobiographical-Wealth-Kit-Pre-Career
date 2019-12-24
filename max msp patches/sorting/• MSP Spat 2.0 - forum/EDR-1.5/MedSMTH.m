@@ -1,0 +1,1 @@
+function [VecOut] = MedSMTH(VecIn,NhalfWind)% MedSMTH %             [VecOut] = MedSMTH(VecIn,NhalfWind)%% Median Smoothing; % Window length : 2*NhalfWind+1VecOut = VecIn;Long = length(VecIn);for i=NhalfWind+1:Long-NhalfWind  LittleVec = VecIn(i-NhalfWind: i+NhalfWind); length(LittleVec); x = median(LittleVec); VecOut(i) = x;end

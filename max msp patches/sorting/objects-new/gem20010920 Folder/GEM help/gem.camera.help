@@ -1,0 +1,1 @@
+max v2;#N vpatcher 100 100 317 322;#P newex 96 148 62 9 gem.camera;#P comment 102 48 100 9 part of GEM;#P comment 9 21 135 1310744 gem.camera;#P comment 40 65 143 9 controls the projection matrix;#P comment 35 177 120 9 this is still experimental.;#P pop;

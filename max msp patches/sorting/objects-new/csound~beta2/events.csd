@@ -1,0 +1,1 @@
+<CsoundSynthesizer><CsInstruments>nchnls	=		2		instr 1	asig	oscili		3000, cpspch(p4), 1ipan	linrand		1		; csound always assumes max amp is 32767		;  -- this will change soon..		outs		asig*ipan, asig*1-ipan				endin</CsInstruments><CsScore>f1 0 512 10 1 1 1 1 1 1 1 1 1 1; kind of a buzz wavef0 6000	; perform for 100 min</CsScore></CsoundSynthesizer>

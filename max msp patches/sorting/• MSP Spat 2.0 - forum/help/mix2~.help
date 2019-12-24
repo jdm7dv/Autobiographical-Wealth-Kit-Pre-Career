@@ -1,0 +1,15 @@
+max v2;
+#N vpatcher 333 493 646 678 16;
+#P comment 20 16 78 1376274 mix2;
+#P comment 116 21 107 1376268 2-in \, 1-out mixer;
+#P message 177 50 35 1376266 1. 0.;
+#P inlet 92 54 15 1;
+#P newex 95 130 191 1376265 declare uselib=1 path=../lib-ispw:../lib:../help;
+#P outlet 29 125 15 1;
+#P inlet 29 54 15 1;
+#P newex 29 87 137 1376266 mix2~;
+#P connect 1 0 0 0;
+#P connect 4 0 0 1;
+#P connect 0 0 2 0;
+#P connect 5 0 0 2;
+#P pop;

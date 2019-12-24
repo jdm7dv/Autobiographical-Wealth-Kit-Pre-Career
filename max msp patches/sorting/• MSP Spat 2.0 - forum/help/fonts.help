@@ -1,0 +1,11 @@
+max v2;
+#N vpatcher 352 246 567 496;
+#P comment 44 63 50 1376266 10;
+#P comment 46 78 50 1376268 12;
+#P comment 47 97 50 1376270 14;
+#P comment 51 116 50 1376272 16;
+#P comment 44 47 50 1376265 8 or 9;
+#P comment 56 180 50 1376280 24;
+#P comment 53 136 50 1376274 18;
+#P comment 55 158 50 1376276 20;
+#P pop;

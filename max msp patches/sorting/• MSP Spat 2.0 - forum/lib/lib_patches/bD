@@ -1,0 +1,1 @@
+max v2;#N vpatcher 150 641 336 765;#P inlet 17 31 15 0;#P comment 9 14 102 1376266 <int/float> dB level;#P outlet 17 80 15 0;#P comment 34 80 115 1376266 <float> power (linear);#P comment 123 18 33 1376274 bD;#P newex 17 51 120 1376265 expr pow( 10. \\\, $f1 * 0.1 );#P connect 5 0 0 0;#P connect 0 0 3 0;#P pop;

@@ -1,0 +1,1 @@
+max v2;#N vpatcher 250 509 408 664;#P comment 9 46 41 1376265 order forcing;#P inlet 16 75 15 0;#P outlet 56 117 15 0;#P inlet 56 20 15 0;#P newex 56 90 43 1376266 line~;#P comment 73 20 63 1376266 amplitude gain;#P message 56 67 36 1376265 \$1 30;#P connect 3 0 0 0;#P connect 0 0 2 0;#P connect 5 0 2 0;#P connect 2 0 4 0;#P pop;

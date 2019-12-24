@@ -1,0 +1,1 @@
+0, rate ‘Arpeggiator rate’ intBox 10 1000 100;1, steps ‘Number of steps’ intBox 1 64 8;2, stepSize ‘Step size’ intBox 1 12 3;3, startNote ‘Starting note’ intBox 0 127 60;4, port ‘Output port’ menuText OMSOutPorts 0;5, channel ‘MIDI channel’ intBox 1 16 1;

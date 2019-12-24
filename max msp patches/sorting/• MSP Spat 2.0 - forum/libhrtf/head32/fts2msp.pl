@@ -1,0 +1,1 @@
+#!/usr/local/bin/perl$linenum = 1;while (<>){    ### retire le CR de chaque ligne    chop;    ### saute les lignes vides    next if (/^$/);     ### premiere ligne = 'max v2;' (sans rien ensuite)    if (/^pbank/) {	next;    }    ### on remplace la virgule par un ';'    $_ =~ s/ ,/\;/;        print "$linenum, $_\n";     $linenum++}### EOF

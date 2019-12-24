@@ -1,0 +1,1 @@
+These examples depend on the new poke~ object in MSP5, along with the slightlyrevised count~ object. These objects are located in this folder, along with theirhelp files. 

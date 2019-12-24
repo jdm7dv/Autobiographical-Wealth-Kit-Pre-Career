@@ -1,0 +1,1 @@
+max v2;#N vpatcher 100 100 397 344;#P message 62 72 42 9 gemList;#P comment 210 30 56 9 GEM object;#P newex 62 157 89 9 gem.part_killslow;#P comment 18 24 186 1310744 gem.part_killslow;#P message 141 123 42 9 speed;#P comment 24 195 248 9 kill all particles which are slower than the kill speed. The default speed is 0.01;#P connect 5 0 3 0;#P connect 1 0 3 1;#P pop;

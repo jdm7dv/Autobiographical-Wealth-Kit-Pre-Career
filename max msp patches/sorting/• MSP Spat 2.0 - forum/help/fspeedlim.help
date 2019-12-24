@@ -1,0 +1,13 @@
+max v2;
+#N vpatcher 419 422 735 625;
+#P newex 171 142 105 1376265 declare uselib=1 path=../lib-ispw:../lib:../help;
+#P flonum 49 152 35 9 0 0 0 21;
+#P flonum 47 77 35 9 0 0 0 21;
+#P number 132 87 35 9 0 0 0 21;
+#P comment 135 29 144 1376266 Same behaviour as speedlim \, but accepts floats.;
+#P newex 54 114 76 1376266 fspeedlim 60;
+#P comment 25 22 90 1376274 fspeedlim;
+#P connect 1 0 5 0;
+#P connect 4 0 1 0;
+#P connect 3 0 1 1;
+#P pop;

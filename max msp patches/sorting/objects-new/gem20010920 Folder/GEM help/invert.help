@@ -1,0 +1,1 @@
+max v2;#N vpatcher 100 100 275 313;#P message 79 80 14 9 1;#P message 55 79 14 9 0;#P comment 43 41 100 9 GEM object;#P newex 56 137 66 9 print out1;#P newex 56 107 42 9 invert;#P comment 18 16 100 1310744 invert;#P connect 5 0 1 0;#P connect 4 0 1 0;#P connect 1 0 2 0;#P pop;

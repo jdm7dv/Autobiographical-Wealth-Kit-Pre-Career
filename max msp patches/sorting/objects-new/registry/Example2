@@ -1,0 +1,1 @@
+max v2;#N vpatcher 408 80 825 423;#P bpatcher 35 78 112 203 -51 -23 eg.sub 0 Foo;#P bpatcher 148 78 112 203 -51 -23 eg.sub 0 Bar;#P bpatcher 261 78 112 203 -51 -23 eg.sub 0 Floop!parent;#P comment 35 38 208 262153 Registry works for bpatcher instances \; the bpatcher takes a directory as argument;#P pop;

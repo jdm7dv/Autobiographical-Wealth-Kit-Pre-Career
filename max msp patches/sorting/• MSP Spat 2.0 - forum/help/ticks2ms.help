@@ -1,0 +1,18 @@
+max v2;
+#N vpatcher 254 440 584 660;
+#P comment 14 14 81 1376274 ticks2ms;
+#P comment 102 21 156 1376266 converts ticks to ms.;
+#P newex 22 161 190 1376265 declare uselib=1 path=../lib-ispw:../lib:../help;
+#P toggle 20 59;
+#P newex 20 83 30 1376266 max;
+#P comment 38 59 55 1376266 < dsp ON;
+#P comment 177 100 126 1376266 arg: initial value in ticks;
+#P number 110 69 35 9 0 0 0 21;
+#P comment 148 68 126 1376266 change duration in ticks;
+#P flonum 110 128 52 9 0 0 0 21;
+#P newex 110 98 64 1376266 ticks2ms 10;
+#P comment 102 34 175 1376266 outputs value each time dsp starts;
+#P connect 8 0 7 0;
+#P connect 4 0 1 0;
+#P connect 1 0 2 0;
+#P pop;

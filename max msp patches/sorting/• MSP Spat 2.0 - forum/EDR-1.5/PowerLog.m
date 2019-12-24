@@ -1,0 +1,1 @@
+function [Outvect] = Powerlog(Invect)% POWERLOG (PowerLog)%% [vect_out] = Powerlog(vect_in)%% Linear to decibel conversion%       vect_out =  10*log10(vect_in)%% Null values are replaced with eps (2.2204e-16 or Matlab eps command)% % See also : POWEREXPInvect = Invect+((Invect == 0)*eps);Outvect = 10*log10(Invect);%Outvect = Outvect(:);

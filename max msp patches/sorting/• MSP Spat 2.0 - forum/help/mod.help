@@ -1,0 +1,14 @@
+max v2;
+#N vpatcher 396 459 696 655;
+#P comment 140 58 125 1376266 Similar to % \, with output guaranteed to be within [0 \, argument[.;
+#P number 49 146 35 9 0 0 0 21;
+#P button 33 78;
+#P number 71 65 35 9 0 0 0 21;
+#P newex 56 107 60 1376266 mod 360;
+#P comment 91 25 65 1376268 - modulo;
+#P comment 28 20 47 1376274 mod;
+#P newex 139 134 124 1376265 declare uselib=1 path=../lib-ispw:../lib:../help;
+#P connect 5 0 3 0;
+#P connect 4 0 3 0;
+#P connect 3 0 6 0;
+#P pop;

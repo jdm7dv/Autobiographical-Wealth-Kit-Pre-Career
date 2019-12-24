@@ -1,0 +1,1 @@
+function [Outvect] = PowerExp(Invect)% POWEREXP (PowerExp)%% [vect_out] = PowerExp[vect_in]%% Decibel to linear conversion% vect_out = 10^(vet_in/10)%% see also : POWERLOGOutvect = 10.^(Invect/10);

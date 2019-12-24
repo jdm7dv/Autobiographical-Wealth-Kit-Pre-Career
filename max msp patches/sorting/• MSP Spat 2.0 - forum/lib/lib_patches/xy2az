@@ -1,0 +1,1 @@
+max v2;#N vpatcher 169 615 492 732;#P inlet 19 17 15 0;#P newex 19 40 197 1376266 expr atan2($f2\\\,$f1)*57.2957796-90;#P inlet 206 18 15 0;#P outlet 19 69 15 0;#P connect 3 0 2 0;#P connect 2 0 0 0;#P connect 1 0 2 1;#P pop;

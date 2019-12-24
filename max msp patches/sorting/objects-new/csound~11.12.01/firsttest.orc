@@ -1,0 +1,1 @@
+sr     =        44100kr 		= 		44100ksmps  =        1nchnls =        2; simple pluck working ?instr 1	icps = p4	kcps = icps	aout1 pluck 15000, kcps, icps, 0, 1	aout2 pluck 15000, kcps, icps*2, 0, 1		outs aout1, aout2endin

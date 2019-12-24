@@ -1,0 +1,1 @@
+max v2;#N vpatcher -878 -419 -778 -319;#P newex 16 92 76 1376266 $1 $2;#P inlet 82 16 15 0;#P outlet 16 123 15 0;#P inlet 16 16 15 0;#P newex 82 36 46 1376265 route set;#P newex 118 59 25 1376265 t b f;#P connect 0 0 5 0;#P connect 2 0 5 0;#P connect 5 0 3 0;#P connect 1 0 5 1;#P connect 0 1 5 1;#P connect 4 0 1 0;#P connect 1 1 0 0;#P pop;

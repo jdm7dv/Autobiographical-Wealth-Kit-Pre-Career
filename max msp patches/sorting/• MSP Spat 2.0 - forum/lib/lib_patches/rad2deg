@@ -1,0 +1,1 @@
+max v2;#N vpatcher 490 550 628 666;#P outlet 17 68 15 0;#P inlet 17 15 15 0;#P newex 17 39 84 1376266 * 57.295773;#P connect 1 0 0 0;#P connect 0 0 2 0;#P pop;

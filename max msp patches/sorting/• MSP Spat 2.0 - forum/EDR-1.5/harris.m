@@ -1,0 +1,1 @@
+function w=harris(long);%  HARRIS%      %        w = harris(size)%%  size : window length%  w    : the window%% Compute a 4th order Blackman-Harris window a=[0.35875 0.48829 0.14128 0.01168];m=(0:length(a)-1);c=(-1).^m;v=ones(long,1);w=sum(((cos(2*pi*(0:long-1)'*m/(long)).*(v*a)).*(v*c))')';v = w';w = v;
